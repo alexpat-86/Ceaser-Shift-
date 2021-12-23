@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+  <link rel="stylesheet" href="ceasercss.css"/>
+</head>
+ 
+<body>
+<!-- mainly just the input boxes -->
+ <h1 id="title">Caeser Cipher Decoder</h1>
+	<form id="form" onsubmit="return false;">
+		<label id ="sclbl" for="usrinp">Undecoded Cypher</label>
+		<input type="text" id="usrinp"/>
+	</form>
+	<form id="formkey" onsubmit="return false;">
+		<label  id= "lbl" for="usrinpd">Key</label>
+		<input type="text" id="usrinpd"/>
+		<input id="sub" type="submit" onclick="keys()">
+	</form> 
+	<div id="result"><p id="rs"></p></div>
+	<script src="ceaserscript.js"></script>
+</body>
+
+
+
+
+
+</html>
